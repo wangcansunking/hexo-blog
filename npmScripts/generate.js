@@ -11,10 +11,10 @@ checkThemesPromise.then(() => {
             } else {
                 console.log(stdout)
                 resolve();
+
+                console.log('Files generated!')
             }
         });
-
-        console.log('Files generated!')
     })
 }).catch(err => console.error(err));
 

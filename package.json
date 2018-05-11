@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "server": "node ./scripts/server.js"
+    "server": "node ./npmScripts/server.js",
+    "generate": "node ./npmScripts/generate.js"
   },
   "hexo": {
     "version": "3.7.1"
