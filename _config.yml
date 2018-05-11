@@ -12,7 +12,7 @@ favicon: https://assets-cdn.github.com/favicon.ico
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.dreamsweet.wang
+url: https://wangcansunking.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -90,3 +90,8 @@ social:
   github: https://github.com/wangcansunking
   weibo:
   linkedin:
+
+deploy:
+  type: git
+  repo: git@github.com:wangcansunking/wangcansunking.github.io.git
+  branch: master
