@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "server": "node ./npmScripts/server.js",
-    "generate": "node ./npmScripts/generate.js"
+    "generate": "node ./npmScripts/generate.js",
+    "deploy": "node ./npmScripts/generate.js && scp -i ~/.ssh/tecent_cloud -r public/* root@118.24.148.163:/home/blog"
   },
   "hexo": {
     "version": "3.7.1"
